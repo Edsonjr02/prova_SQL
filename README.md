@@ -1,6 +1,6 @@
 # Prova de SQL
 
-Criação das tabelas ⌨
+### Criação das tabelas ⌨
 
 ```
 create table tb_aluno (
@@ -26,7 +26,7 @@ create table tb_matricula(
 )
 ```
 
-💾 Inserindo os dados das tabelas 💾 
+### 💾 Inserindo os dados das tabelas 💾 
 
 ```
 insert into tb_aluno(cod_aluno,nome_aluno,ano_nasc,email,sexo)
@@ -52,7 +52,7 @@ values(2, 3)
 values(5, 3)
 ```
 
-Respondendo as questões:
+### Respondendo as questões praticas:
 
 1. Faça um comando SQL para matricular o aluno “Pedro César” no curso de Informática. Os dados devem ser inseridos na tabela TB_MATRÍCULA.
 
@@ -96,9 +96,7 @@ from tb_aluno
 
 5. Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
 
-```
 'Não consegui resonder.'
-```
 
 6. Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
 
@@ -141,6 +139,28 @@ from tb_curso order by nome_curso asc
 
 10. Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
 
-```
+* Mostre o nome de todos os alunos matriculados em arquitetura
 
 ```
+select tb_aluno.nome_aluno, tb_curso.nome_curso
+from tb_aluno
+inner join tb_curso
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+where nome_curso = 'Arquitetura'
+```
+
+<img src="sql10.png">
+
+### Respondendo as questões teoricas:
+
+1. Defina: SQL.
+
+2. Faça um relacionamento cronológico sobre SQL.
+
+3. Liste as principais caracteríticas de SQL.
+
+4. Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais?
+
+5. Qual a importância da linguagem SQL no desenvolvimento de softwares atualmente? Justifique.
+
+
