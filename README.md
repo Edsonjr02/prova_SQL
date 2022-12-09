@@ -61,6 +61,8 @@ insert into tb_aluno(cod_aluno,nome_aluno,ano_nasc,email,sexo)
 values(4, 'Pedro César', NULL, null,'M');
 ```
 
+<img src="sql1.png">
+
 2. Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados. Os dados deverão estar ordenados pelo nome do curso.
 
 ```
@@ -72,6 +74,8 @@ INNER JOIN tb_curso
 ON tb_curso.cod_curso = tb_matricula.cod_curso
 ```
 
+<img src="sql2.png">
+
 3. Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
 
 ```
@@ -79,12 +83,16 @@ select email
 from tb_aluno where 2022 - ano_nasc >= 18
 ```
 
+<img src="sql3.png">
+
 4. Desenvolva um comando SQL que mostre o total de alunos.
 
 ```
 select count(cod_aluno)
 from tb_aluno 
 ```
+
+<img src="sql4.png">
 
 5. Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
 
@@ -99,12 +107,16 @@ select nome_aluno
 from tb_aluno where 2022 - ano_nasc >= 18 
 ```
 
+<img src="sql6.png">
+
 7. Faça um comando SQL que retorne o nome de todas as mulheres.
 
 ```
 select nome_aluno, sexo
 from tb_aluno where sexo = 'F'
 ```
+
+<img src="sql7.png">
 
 8. Faça um comando SQL que retorne o nome de todas as mulheres matriculadas no curso de Medicina.
 
@@ -116,12 +128,16 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 where nome_curso = 'Medicina' and sexo = 'F'
 ```
 
+<img src="sql8.png">
+
 9. Faça um comando SQL que retorne os nomes dos cursos ordenados por ordem alfabética.
 
 ```
 select nome_curso
 from tb_curso order by nome_curso asc
 ```
+
+<img src="sql9.png">
 
 10. Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
 
