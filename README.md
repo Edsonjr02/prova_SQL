@@ -168,11 +168,11 @@ Desde então, o SQL passou por melhorias importantes e outras alterações e adi
 
 - Possui sintaxe e semântica próprias que tenta se aproximar à língua inglesa.
 
--Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
+- Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
 
--Permite fazer uma série de operações de inclusão, de pesquisa e de definição de dados.
+- Permite fazer uma série de operações de inclusão, de pesquisa e de definição de dados.
 
--Possui linguagem do tipo declarativa.
+- Possui linguagem do tipo declarativa.
 
 4. Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais?
 
