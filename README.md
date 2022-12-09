@@ -155,12 +155,34 @@ where nome_curso = 'Arquitetura'
 
 1. Defina: SQL.
 
+Resumidamente, é uma linguagem de programação para lidar com banco de dados relacional (baseado em tabelas). Foi criado 
+para que vários desenvolvedores pudessem acessar e modificar dados de uma empresa. É o acrônimo para Structured Query Language, 
+para acesso e manipulação de dados, principalmente para banco de dados relacionados.
+
 2. Faça um relacionamento cronológico sobre SQL.
+
+O SQL foi originalmente desenvolvido  no início dos anos 1970 no IBM Labs. O nome original da linguagem era SEQUEL, que significa "Structured English Query Language". No início dos anos 1980, o American National Standards Institute (ANSI) começou  a trabalhar no desenvolvimento de uma versão padrão do SQL que foi publicada em 1986. 
+Desde então, o SQL passou por melhorias importantes e outras alterações e adições até os dias atuais, até agora, tornou-se a linguagem  padrão para bancos de dados.
 
 3. Liste as principais caracteríticas de SQL.
 
+- Possui sintaxe e semântica próprias que tenta se aproximar à língua inglesa.
+
+-Utilizada tanto por programadores"normais" tanto também pelos Administradores do Banco de Dados.
+
+-Permite fazer uma série de operações de inclusão, de pesquisa e de definição de dados.
+
+-Possui linguagem do tipo declarativa.
+
 4. Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais?
+
+O comando Select deve conter o nome do campo que deve ser retornado, de qual tabela e quando contêm a claúsula WHERE, as 
+condições que o registro deve obedecer para retornar os valores. Uma expressão básica em SQL consiste em três cláusulas 
+obrigatórias: SELECT, FROM e WHERE. A cláusula SELECT corresponde à operação de projeção da álgebra relacional. É usada para 
+relacionar os atributos desejados no resultado de uma consulta. As cláusulas apcionais são: INNER JOIN, ORDER BY, GROUP BY, ASC, 
+DESC.
 
 5. Qual a importância da linguagem SQL no desenvolvimento de softwares atualmente? Justifique.
 
-
+O SQL é bem importante no desenvolvimento de softwares, já que as consultas e o gerenciamento de dados se tornam bem mais dinâmicas. 
+Aprendê-la permite entrar em contato com os dados na fonte e é uma linguagem bem simples de se aprender.
